@@ -4,164 +4,164 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Port St Johns LM · Tenders and quotations (design concept)</title>
+<title>Tenders and quotations · Port St Johns Local Municipality (concept)</title>
 <meta name="description" content="Website redesign concept for Port St Johns Local Municipality by Warm &amp; Easy Blueprints. Not the official municipal website.">
+<meta name="theme-color" content="#0A2A21">
 <link rel="icon" href="assets/psj-emblem.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
-<style>
-body{margin:0;background:#F5F1E8}
-*{box-sizing:border-box}
-a{color:#0F3B2E}a:hover{color:#5E7A22}
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #F2A71B;outline-offset:2px}
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<div role="note" style="position:sticky;top:0;z-index:50;background:#1C2421;color:#FFFFFF;font-family:'Public Sans',system-ui,sans-serif;font-size:13.5px;line-height:1.4;padding:9px 16px;text-align:center">Design concept by <strong>Warm &amp; Easy Blueprints</strong> for tender PSJLM-CORP-2026/27-07. This is <strong>not</strong> the official Port St Johns Municipality website. Visit the official site at <a href="https://psjmunicipality.gov.za/" style="color:#F2A71B">psjmunicipality.gov.za</a>.</div>
-<div style="width: 100%; font-family: 'Public Sans', system-ui, sans-serif; color: #1C2421; background: #F5F1E8; font-size: 16px; line-height: 1.55">
+<a class="sr" href="#main">Skip to content</a>
 
-<header style="background: #FFFFFF; border-bottom: 1px solid #DDD6C8">
-<div style="max-width: 1240px; margin: 0 auto; padding: 12px 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between">
-<a href="index.html" aria-label="Port St Johns Municipality home" style="line-height: 0"><img src="assets/psj-logo.png" alt="Port St Johns Municipality" style="height: 50px; width: auto"></a>
-<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 4px 24px; font-weight: 600; font-size: 15px">
-<a href="#" style="text-decoration: none">About PSJ</a><a href="#" style="text-decoration: none">Council</a><a href="#" style="text-decoration: none">Departments</a><a href="#" style="text-decoration: none">Media Room</a><a href="#" style="text-decoration: none">Documents</a><a href="#" aria-current="page" style="text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 3px; text-decoration-color: #F2A71B">Procurement</a><a href="vacancies.html" style="text-decoration: none">Vacancies</a>
-</nav>
-<a href="#" style="text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 8px; background: #F2A71B; color: #0B2C22">Tender alerts</a>
+<div class="concept" role="note">Design concept by <strong>Warm &amp; Easy Blueprints</strong> for tender PSJLM-CORP-2026/27-07. This is <strong>not</strong> the official Port St Johns Municipality website. The official site is <a href="https://psjmunicipality.gov.za/">psjmunicipality.gov.za</a>.</div>
+
+<div class="util">
+  <div class="wrap">
+    <div class="util-left">
+      <a href="tel:0475641207">047 564 1207/8</a>
+      <a href="mailto:info@psjmunicipality.gov.za">info@psjmunicipality.gov.za</a>
+      <span class="weather" data-weather hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span data-wx-text></span></span>
+    </div>
+    <div class="util-right">
+      <div class="seg" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="xh" aria-pressed="false">isiXhosa</button></div>
+      <button type="button" class="chip-btn" data-lite aria-pressed="false"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 20h.01M8 20v-4M13 20v-8M18 20V8"/></svg>Lite mode</button>
+      <a href="#">Staff login</a>
+    </div>
+  </div>
 </div>
+
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="brand" href="index.html" aria-label="Port St Johns Municipality, home">
+      <img src="assets/psj-emblem.png" alt="" width="52" height="46">
+      <span class="brand-name">Port St Johns<small>Municipality</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m1">About PSJ<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m1"><a href="#">About us<span>Who we are and what we do</span></a><a href="#">History of Port St Johns<span>From the Gates of St John to today</span></a><a href="#">FAQs<span>Quick answers to common questions</span></a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m2">Council<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m2" style="--cols:2"><a href="#">The Mayor<span>Cllr Cebisa Sane Mazuza</span></a><a href="#">Council Speaker<span>Office of the Speaker</span></a><a href="#">Council Whip<span>Office of the Whip</span></a><a href="#">Council members<span>Councillors and wards</span></a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m3">Departments<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m3" style="--cols:2"><a href="#">Municipal Manager<span>Office of the Municipal Manager</span></a><a href="#">Budget &amp; Treasury<span>Finance, revenue and SCM</span></a><a href="#">Corporate Services<span>HR, ICT and administration</span></a><a href="#">Community Services and Public Safety<span>Social, health, safety and emergency</span></a><a href="#">Local Economic Development<span>Business, tourism and agriculture</span></a><a href="#">Engineering Services<span>Roads, infrastructure and projects</span></a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m4">Media Room<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m4"><a href="index.html#news">News</a><a href="index.html#board">Notices</a><a href="index.html#news">Events</a><a href="index.html#visit">Gallery</a></div></div>
+      <div class="nav-item"><a class="nav-top" href="#">Documents</a></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m6" aria-current="page">Procurement<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m6" style="--cols:2"><a href="tenders.html">Tender adverts</a><a href="tenders.html">Requests for quotation</a><a href="tenders.html">Intent to award</a><a href="tenders.html">Awarded tenders</a><a href="tenders.html">Bids register</a><a href="tenders.html">SCM notices</a><a href="tenders.html">Archived tenders</a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m7">Vacancies<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m7"><a href="vacancies.html">Open vacancies<span>Apply online</span></a><a href="vacancies.html#track">Track my application</a><a href="vacancies.html">Closed vacancies</a><a href="vacancies.html">Paper application form</a></div></div>
+    </nav>
+    <div class="hdr-actions">
+      <a class="btn btn-sun" href="#">Report a fault</a>
+      <button type="button" class="icon-btn menu-btn" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
 </header>
 
-<section style="background: #0F3B2E; color: #FFFFFF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px 0">
-<nav aria-label="Breadcrumb" style="font-size: 14px; color: #B9CCC1; margin-bottom: 14px"><a href="index.html" style="color: #FFFFFF">Home</a> / Procurement</nav>
-<h1 style="margin: 0 0 10px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 44px; line-height: 1.1">Tenders and quotations</h1>
-<p style="margin: 0 0 28px; font-size: 17px; color: #D6E2DA; max-width: 700px">Every open bid, quotation request, award and SCM notice, published the day it is approved. Documents download free of charge, with a copy on eTenders.</p>
-<div role="tablist" aria-label="Procurement sections" style="display: flex; flex-wrap: wrap; gap: 2px">
-
-<button type="button" role="tab" aria-selected="true" style="font: inherit; font-size: 15px; font-weight: 700; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: #F5F1E8; color: #0F3B2E; cursor: pointer">Tender adverts<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #5E7A22">4</span></button>
-
-<button type="button" role="tab" aria-selected="false" style="font: inherit; font-size: 15px; font-weight: 500; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: transparent; color: #E8EFE9; cursor: pointer">Requests for quotation<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #B9CCC1">[n]</span></button>
-
-<button type="button" role="tab" aria-selected="false" style="font: inherit; font-size: 15px; font-weight: 500; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: transparent; color: #E8EFE9; cursor: pointer">Intent to award<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #B9CCC1">[n]</span></button>
-
-<button type="button" role="tab" aria-selected="false" style="font: inherit; font-size: 15px; font-weight: 500; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: transparent; color: #E8EFE9; cursor: pointer">Awarded tenders<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #B9CCC1">[n]</span></button>
-
-<button type="button" role="tab" aria-selected="false" style="font: inherit; font-size: 15px; font-weight: 500; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: transparent; color: #E8EFE9; cursor: pointer">Bids register<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #B9CCC1"></span></button>
-
-<button type="button" role="tab" aria-selected="false" style="font: inherit; font-size: 15px; font-weight: 500; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: transparent; color: #E8EFE9; cursor: pointer">SCM notices<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #B9CCC1">[n]</span></button>
-
-<button type="button" role="tab" aria-selected="false" style="font: inherit; font-size: 15px; font-weight: 500; padding: 13px 18px; border: 0; border-radius: 6px 6px 0 0; background: transparent; color: #E8EFE9; cursor: pointer">Archive<span style="font-weight: 600; margin-left: 8px; font-size: 13px; color: #B9CCC1"></span></button>
-
+<div class="mnav" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="mnav-top"><span class="brand" style="color:#fff"><img src="assets/psj-emblem.png" alt="" width="44" height="39"><span class="brand-name">Port St Johns<small style="color:#E7D9A8">Municipality</small></span></span><button type="button" class="icon-btn mnav-close" aria-label="Close menu" style="background:transparent;color:#fff;border-color:#3E6B5A"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <details><summary>About PSJ<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="#">About us</a><a href="#">History of Port St Johns</a><a href="#">FAQs</a></div></details>
+  <details><summary>Council<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="#">The Mayor</a><a href="#">Council Speaker</a><a href="#">Council Whip</a><a href="#">Council members</a></div></details>
+  <details><summary>Departments<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="#">Municipal Manager</a><a href="#">Budget &amp; Treasury</a><a href="#">Corporate Services</a><a href="#">Community Services and Public Safety</a><a href="#">Local Economic Development</a><a href="#">Engineering Services</a></div></details>
+  <details><summary>Media Room<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="index.html#news">News</a><a href="index.html#board">Notices</a><a href="index.html#news">Events</a><a href="index.html#visit">Gallery</a></div></details>
+  <details><summary>Procurement<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="tenders.html">Tender adverts</a><a href="tenders.html">Requests for quotation</a><a href="tenders.html">Awarded tenders</a><a href="tenders.html">Bids register</a><a href="tenders.html">SCM notices</a></div></details>
+  <details><summary>Vacancies<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="vacancies.html">Open vacancies</a><a href="vacancies.html#track">Track my application</a></div></details>
+  <a class="btn btn-sun" href="#">Report a fault</a>
 </div>
-</div>
+
+<main id="main">
+<section class="page-hero">
+  <img src="assets/gorge-coast.jpg" alt="">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / Procurement</nav>
+    <h1>Tenders and quotations</h1>
+    <p>Every open bid, quotation request, award and SCM notice, published the day it is approved. Documents download free of charge and are also listed on eTenders.</p>
+    <div class="hero-stats"><div><b data-count="4">4</b><span>open tenders</span></div><div><b>R0</b><span>to download documents</span></div></div>
+  </div>
+  <div class="waves" aria-hidden="true">
+    <svg class="w1" viewBox="0 0 2880 110" preserveAspectRatio="none"><path fill="#4E9CC6" d="M0 52 Q180 14 360 52 T720 52 T1080 52 T1440 52 T1800 52 T2160 52 T2520 52 T2880 52 V110 H0Z"/></svg>
+    <svg class="w2" viewBox="0 0 2880 110" preserveAspectRatio="none"><path fill="#155E86" d="M0 70 Q240 36 480 70 T960 70 T1440 70 T1920 70 T2400 70 T2880 70 V110 H0Z"/></svg>
+    <svg class="w3" viewBox="0 0 2880 110" preserveAspectRatio="none"><path fill="#EEF3F0" d="M0 88 Q180 66 360 88 T720 88 T1080 88 T1440 88 T1800 88 T2160 88 T2520 88 T2880 88 V110 H0Z"/></svg>
+  </div>
 </section>
 
-<div style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 72px; display: flex; flex-wrap: wrap; gap: 32px">
-<main style="flex: 999 1 640px; min-width: 0">
-<form role="search" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px">
-<label for="t-q" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search tenders</label>
-<input id="t-q" type="search" placeholder="Search by reference or description" style="flex: 1 1 280px; min-width: 0; font: inherit; padding: 12px; border: 1px solid #C9C1B0; border-radius: 6px; background: #FFFFFF">
-<label for="t-dept" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Department</label>
-<select id="t-dept" style="font: inherit; padding: 12px; border: 1px solid #C9C1B0; border-radius: 6px; background: #FFFFFF"><option>All departments</option><option>Corporate Services</option><option>Engineering Services</option><option>Community Services</option><option>LED</option></select>
-<button type="submit" style="font: inherit; font-weight: 700; padding: 12px 20px; border: 0; border-radius: 6px; background: #0F3B2E; color: #FFFFFF; cursor: pointer">Search</button>
-</form>
+<section class="section" style="padding-top:40px">
+  <div class="wrap">
+    <div class="tabs" role="tablist" aria-label="Procurement sections" style="margin-bottom:24px">
+      <button class="tab" role="tab" aria-selected="true" data-ptab="open">Tender adverts<span class="n">4</span></button>
+      <button class="tab" role="tab" aria-selected="false" data-ptab="rfq">Requests for quotation</button>
+      <button class="tab" role="tab" aria-selected="false" data-ptab="intent">Intent to award</button>
+      <button class="tab" role="tab" aria-selected="false" data-ptab="awarded">Awarded</button>
+      <button class="tab" role="tab" aria-selected="false" data-ptab="scm">SCM notices</button>
+    </div>
+    <div class="listing listing-r">
+      <div>
+        <div class="field" style="margin-bottom:16px"><label class="sr" for="t-q">Search tenders</label><input id="t-q" type="search" placeholder="Search by reference or description"></div>
 
-<div style="overflow-x: auto; background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px">
-<table style="width: 100%; min-width: 760px; border-collapse: collapse; font-size: 15px">
-<thead>
-<tr style="background: #0F3B2E; color: #FFFFFF; text-align: left">
-<th scope="col" style="padding: 14px 16px; font-weight: 700">Reference</th>
-<th scope="col" style="padding: 14px 16px; font-weight: 700">Description</th>
-<th scope="col" style="padding: 14px 16px; font-weight: 700">Briefing</th>
-<th scope="col" style="padding: 14px 16px; font-weight: 700">Closes</th>
-<th scope="col" style="padding: 14px 16px; font-weight: 700"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Documents</span></th>
-</tr>
-</thead>
-<tbody>
+        <div class="table-wrap" data-ppanel="open"><table>
+          <thead><tr><th scope="col">Reference</th><th scope="col">Description</th><th scope="col">Briefing</th><th scope="col">Closes</th><th scope="col"><span class="sr">Documents</span></th></tr></thead>
+          <tbody>
+            <tr><td><b style="color:var(--forest)">PSJLM-CORP-2026/27-07</b></td><td><b>Redesigning, hosting, support and maintenance of the municipal website for 3 years</b><span class="left" style="font-weight:400">Corporate Services</span></td><td>None</td><td><b>02 Nov 2026, 11:00</b><span class="left" data-days-left="2026-11-02T11:00:00+02:00"></span></td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr>
+            <tr><td><b style="color:var(--forest)">[Reference]</b></td><td><b>[Description of goods or services]</b><span class="left" style="font-weight:400">Engineering Services</span></td><td>[Date, venue]</td><td><b>[Date, 11:00]</b><span class="left">[n] days left</span></td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr>
+            <tr><td><b style="color:var(--forest)">[Reference]</b></td><td><b>[Description of goods or services]</b><span class="left" style="font-weight:400">Community Services</span></td><td>Non-compulsory</td><td><b>[Date, 11:00]</b><span class="left">[n] days left</span></td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr>
+            <tr><td><b style="color:var(--forest)">[Reference]</b></td><td><b>[Description of goods or services]</b><span class="left" style="font-weight:400">Local Economic Development</span></td><td>[Date, venue]</td><td><b>[Date, 11:00]</b><span class="left">[n] days left</span></td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr>
+          </tbody></table></div>
+        <div class="table-wrap" data-ppanel="rfq" hidden><table><thead><tr><th scope="col">Reference</th><th scope="col">Description</th><th scope="col">Closes</th><th scope="col"><span class="sr">Documents</span></th></tr></thead><tbody><tr><td><b>[RFQ number]</b></td><td>[Description]</td><td>[Date]</td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr><tr><td><b>[RFQ number]</b></td><td>[Description]</td><td>[Date]</td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr></tbody></table></div>
+        <div class="table-wrap" data-ppanel="intent" hidden><table><thead><tr><th scope="col">Reference</th><th scope="col">Description</th><th scope="col">Preferred bidder</th><th scope="col">Objections close</th></tr></thead><tbody><tr><td><b>[Reference]</b></td><td>[Description]</td><td>[Bidder]</td><td>[Date]</td></tr></tbody></table></div>
+        <div class="table-wrap" data-ppanel="awarded" hidden><table><thead><tr><th scope="col">Reference</th><th scope="col">Description</th><th scope="col">Supplier</th><th scope="col">Amount</th><th scope="col">B-BBEE</th></tr></thead><tbody><tr><td><b>[Reference]</b></td><td>[Description]</td><td>[Supplier]</td><td>R [Amount]</td><td>[Level]</td></tr><tr><td><b>[Reference]</b></td><td>[Description]</td><td>[Supplier]</td><td>R [Amount]</td><td>[Level]</td></tr></tbody></table></div>
+        <div class="table-wrap" data-ppanel="scm" hidden><table><thead><tr><th scope="col">Date</th><th scope="col">Notice</th><th scope="col"><span class="sr">Documents</span></th></tr></thead><tbody><tr><td><b>29 Jun 2026</b></td><td>Notice of bidders</td><td><a class="dl" href="#"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>PDF</a></td></tr></tbody></table></div>
+        <p style="margin-top:16px;font-size:15px;color:var(--muted)">Awards are published in line with the MFMA and the Municipal SCM Regulations. <a class="link" href="#">Full bids register</a></p>
+      </div>
 
-<tr style="background: #FFFFFF; border-top: 1px solid #E6E0D3; vertical-align: top">
-<td style="padding: 16px; font-weight: 700; white-space: nowrap; color: #0F3B2E">PSJLM-CORP-2026/27-07</td>
-<td style="padding: 16px"><a href="#" style="font-weight: 600; text-decoration: none; color: #1C2421">Redesigning, hosting, support and maintenance of the municipal website for 3 years</a><div style="font-size: 13.5px; color: #55605B">Corporate Services</div></td>
-<td style="padding: 16px; color: #3D4743">None</td>
-<td style="padding: 16px; white-space: nowrap"><b>02 Nov 2026, 11:00</b><div style="font-size: 13.5px; color: #9A3412; font-weight: 600">7 days left</div></td>
-<td style="padding: 16px; text-align: right"><a href="#" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-weight: 700; padding: 9px 12px; border: 1px solid #C9C1B0; border-radius: 6px; white-space: nowrap"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Documents</a></td>
-</tr>
-
-<tr style="background: #FAF8F3; border-top: 1px solid #E6E0D3; vertical-align: top">
-<td style="padding: 16px; font-weight: 700; white-space: nowrap; color: #0F3B2E">[Reference]</td>
-<td style="padding: 16px"><a href="#" style="font-weight: 600; text-decoration: none; color: #1C2421">[Description of goods or services]</a><div style="font-size: 13.5px; color: #55605B">Engineering Services</div></td>
-<td style="padding: 16px; color: #3D4743">[Date, venue]</td>
-<td style="padding: 16px; white-space: nowrap"><b>[Date, 11:00]</b><div style="font-size: 13.5px; color: #55605B; font-weight: 600">[n] days left</div></td>
-<td style="padding: 16px; text-align: right"><a href="#" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-weight: 700; padding: 9px 12px; border: 1px solid #C9C1B0; border-radius: 6px; white-space: nowrap"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Documents</a></td>
-</tr>
-
-<tr style="background: #FFFFFF; border-top: 1px solid #E6E0D3; vertical-align: top">
-<td style="padding: 16px; font-weight: 700; white-space: nowrap; color: #0F3B2E">[Reference]</td>
-<td style="padding: 16px"><a href="#" style="font-weight: 600; text-decoration: none; color: #1C2421">[Description of goods or services]</a><div style="font-size: 13.5px; color: #55605B">Community Services</div></td>
-<td style="padding: 16px; color: #3D4743">Non-compulsory</td>
-<td style="padding: 16px; white-space: nowrap"><b>[Date, 11:00]</b><div style="font-size: 13.5px; color: #55605B; font-weight: 600">[n] days left</div></td>
-<td style="padding: 16px; text-align: right"><a href="#" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-weight: 700; padding: 9px 12px; border: 1px solid #C9C1B0; border-radius: 6px; white-space: nowrap"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Documents</a></td>
-</tr>
-
-<tr style="background: #FAF8F3; border-top: 1px solid #E6E0D3; vertical-align: top">
-<td style="padding: 16px; font-weight: 700; white-space: nowrap; color: #0F3B2E">[Reference]</td>
-<td style="padding: 16px"><a href="#" style="font-weight: 600; text-decoration: none; color: #1C2421">[Description of goods or services]</a><div style="font-size: 13.5px; color: #55605B">Local Economic Development</div></td>
-<td style="padding: 16px; color: #3D4743">[Date, venue]</td>
-<td style="padding: 16px; white-space: nowrap"><b>[Date, 11:00]</b><div style="font-size: 13.5px; color: #55605B; font-weight: 600">[n] days left</div></td>
-<td style="padding: 16px; text-align: right"><a href="#" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-weight: 700; padding: 9px 12px; border: 1px solid #C9C1B0; border-radius: 6px; white-space: nowrap"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Documents</a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
-
-<section aria-labelledby="award-h" style="margin-top: 44px">
-<h2 id="award-h" style="margin: 0 0 6px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 28px; color: #0F3B2E">Recently awarded</h2>
-<p style="margin: 0 0 16px; color: #55605B; font-size: 15px">Published in line with MFMA section 75 and the SCM Regulations.</p>
-<ul style="list-style: none; margin: 0; padding: 0; border-top: 2px solid #0F3B2E">
-<li style="display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid #DDD6C8"><span style="font-weight: 600">[Reference] · [Description]</span><span style="color: #55605B">[Supplier] · R [Amount] · B-BBEE [Level]</span></li>
-<li style="display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid #DDD6C8"><span style="font-weight: 600">[Reference] · [Description]</span><span style="color: #55605B">[Supplier] · R [Amount] · B-BBEE [Level]</span></li>
-</ul>
-<a href="#" style="display: inline-block; margin-top: 14px; font-weight: 700">Full bids register</a>
+      <aside style="display:flex;flex-direction:column;gap:16px">
+        <div class="countdown-card" data-countdown="2026-11-02T11:00:00+02:00">
+          <span class="lbl">Next closing</span>
+          <h3>Website redesign, hosting and maintenance</h3>
+          <span class="ref">PSJLM-CORP-2026/27-07</span>
+          <div class="cd" aria-label="Time left until closing"><div><b data-d>00</b><span>days</span></div><div><b data-h>00</b><span>hours</span></div><div><b data-m>00</b><span>min</span></div><div><b data-s>00</b><span>sec</span></div></div>
+        </div>
+        <div style="background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px">
+          <h3 style="font-size:22px;color:var(--forest);margin-bottom:14px">Before you bid</h3>
+          <ul class="checklist">
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Active registration on the Central Supplier Database (CSD)</li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Valid SARS tax compliance PIN</li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>SBD 1, 4, 6.1, 8 and 9 completed and signed</li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Municipal rates clearance or a valid lease</li>
+            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>B-BBEE certificate or sworn affidavit</li>
+          </ul>
+        </div>
+        <div style="background:var(--forest);color:#fff;border-radius:22px;padding:24px">
+          <h3 style="font-size:22px;margin-bottom:8px">Tender box</h3>
+          <p style="color:var(--on-dark);font-size:15.5px;margin-bottom:14px">Reception, Municipal Town<br>ERF 257 Main Street, Port St Johns, 5120</p>
+          <iframe class="map" title="Map of the municipal offices in Port St Johns" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Port%20St%20Johns%20Local%20Municipality%2C%20Main%20Street%2C%20Port%20St%20Johns&z=15&output=embed"></iframe>
+          <p style="color:var(--on-dark-muted);font-size:14px;margin-top:12px">Late, emailed and faxed bids are not accepted unless a notice says otherwise.</p>
+        </div>
+        <div style="background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px">
+          <h3 style="font-size:22px;color:var(--forest);margin-bottom:8px">SCM enquiries</h3>
+          <p style="font-size:15.5px">[SCM official name]<br>[Telephone], [Email]</p>
+          <p style="color:var(--muted);font-size:14px;margin-top:8px">Questions close five days before each tender closes.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
 </section>
 </main>
 
-<aside style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 16px">
-<div style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 24px">
-<h2 style="margin: 0 0 14px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 22px; color: #0F3B2E">Before you bid</h2>
-<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; font-size: 15px">
 
-<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5E7A22" stroke-width="2.4" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5 9-10"/></svg><span>Active registration on the Central Supplier Database (CSD)</span></li>
-
-<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5E7A22" stroke-width="2.4" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5 9-10"/></svg><span>Valid SARS tax compliance PIN</span></li>
-
-<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5E7A22" stroke-width="2.4" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5 9-10"/></svg><span>SBD 1, 4, 6.1, 8 and 9 completed and signed</span></li>
-
-<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5E7A22" stroke-width="2.4" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5 9-10"/></svg><span>Municipal rates clearance or a valid lease</span></li>
-
-<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5E7A22" stroke-width="2.4" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5 9-10"/></svg><span>B-BBEE certificate or sworn affidavit</span></li>
-
-</ul>
-</div>
-<div style="background: #0F3B2E; color: #FFFFFF; border-radius: 6px; padding: 24px">
-<h2 style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 22px">Tender box</h2>
-<p style="margin: 0 0 14px; color: #D6E2DA; font-size: 15px">Reception, Municipal Town<br>ERF 257 Main Street, Port St Johns, 5120</p>
-<p style="margin: 0; font-size: 14.5px; color: #C8D8CF">Late, emailed and faxed bids are not accepted unless a notice says otherwise.</p>
-</div>
-<div style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 24px">
-<h2 style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 22px; color: #0F3B2E">SCM enquiries</h2>
-<p style="margin: 0 0 4px; font-size: 15px">[SCM official name]</p>
-<p style="margin: 0 0 4px; font-size: 15px">[Telephone] · [Email]</p>
-<p style="margin: 0; font-size: 14px; color: #55605B">Questions close five days before each tender closes.</p>
-</div>
-</aside>
-</div>
-
-<footer style="background: #0B2C22; color: #9FB5A9; font-size: 13.5px">
-<div style="max-width: 1240px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between">
-<span>© 2026 Port St Johns Local Municipality · ERF 257 Main Street, Port St Johns, 5120</span>
-<span><a href="#" style="color: #FFFFFF">PAIA</a> · <a href="#" style="color: #FFFFFF">POPIA</a> · <a href="#" style="color: #FFFFFF">Accessibility</a></span>
-</div>
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <div><img class="crest" src="assets/psj-emblem.png" alt="Port St Johns Municipality crest"><p class="name">Port St Johns Local Municipality</p><p style="color:var(--on-dark-muted);margin-top:4px">Our heritage, our people</p></div>
+    <div><h2>Contact</h2><p>ERF 257 Main Street<br>Port St Johns, 5120</p><p style="margin-top:8px"><a href="tel:0475641207">047 564 1207/8</a><br><a href="mailto:info@psjmunicipality.gov.za">info@psjmunicipality.gov.za</a></p><p style="margin-top:8px;color:var(--on-dark-muted)">[Office hours]</p></div>
+    <div><h2>Emergencies</h2><ul><li>Police <a href="tel:10111"><b>10111</b></a></li><li>Ambulance and fire <a href="tel:10177"><b>10177</b></a></li><li>After-hours faults <b style="color:#fff">[Number]</b></li><li>Disaster management <b style="color:#fff">[Number]</b></li></ul></div>
+    <div><h2>Transparency</h2><ul><li><a href="#">IDP, budget and annual reports</a></li><li><a href="#">By-laws and policies</a></li><li><a href="#">PAIA manual</a></li><li><a href="#">POPIA privacy notice</a></li><li><a href="#">Accessibility</a></li></ul></div>
+  </div>
+  <div class="footer-base"><div class="wrap"><span>© 2026 Port St Johns Local Municipality</span><span>Website concept by Warm &amp; Easy Blueprints</span></div></div>
 </footer>
-</div>
+
+<button type="button" class="to-top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<script src="assets/site.js"></script>
 </body>
 </html>

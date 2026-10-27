@@ -4,242 +4,210 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Port St Johns LM · Vacancies (design concept)</title>
+<title>Vacancies · Port St Johns Local Municipality (concept)</title>
 <meta name="description" content="Website redesign concept for Port St Johns Local Municipality by Warm &amp; Easy Blueprints. Not the official municipal website.">
+<meta name="theme-color" content="#0A2A21">
 <link rel="icon" href="assets/psj-emblem.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&amp;display=swap" rel="stylesheet">
-<style>
-body{margin:0;background:#F5F1E8}
-*{box-sizing:border-box}
-a{color:#0F3B2E}a:hover{color:#5E7A22}
-a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #F2A71B;outline-offset:2px}
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<div role="note" style="position:sticky;top:0;z-index:50;background:#1C2421;color:#FFFFFF;font-family:'Public Sans',system-ui,sans-serif;font-size:13.5px;line-height:1.4;padding:9px 16px;text-align:center">Design concept by <strong>Warm &amp; Easy Blueprints</strong> for tender PSJLM-CORP-2026/27-07. This is <strong>not</strong> the official Port St Johns Municipality website. Visit the official site at <a href="https://psjmunicipality.gov.za/" style="color:#F2A71B">psjmunicipality.gov.za</a>.</div>
-<div style="width: 100%; font-family: 'Public Sans', system-ui, sans-serif; color: #1C2421; background: #F5F1E8; font-size: 16px; line-height: 1.55">
+<a class="sr" href="#main">Skip to content</a>
 
-<header style="background: #FFFFFF; border-bottom: 1px solid #DDD6C8">
-<div style="max-width: 1240px; margin: 0 auto; padding: 12px 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: center; justify-content: space-between">
-<a href="index.html" aria-label="Port St Johns Municipality home" style="line-height: 0"><img src="assets/psj-logo.png" alt="Port St Johns Municipality" style="height: 50px; width: auto"></a>
-<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 4px 24px; font-weight: 600; font-size: 15px">
-<a href="#" style="text-decoration: none">About PSJ</a><a href="#" style="text-decoration: none">Council</a><a href="#" style="text-decoration: none">Departments</a><a href="#" style="text-decoration: none">Media Room</a><a href="#" style="text-decoration: none">Documents</a><a href="tenders.html" style="text-decoration: none">Procurement</a><a href="#" aria-current="page" style="text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 3px; text-decoration-color: #F2A71B">Vacancies</a>
-</nav>
-<a href="#" style="text-decoration: none; font-weight: 700; padding: 10px 16px; border-radius: 8px; border: 1px solid #0F3B2E">Sign in to my applications</a>
+<div class="concept" role="note">Design concept by <strong>Warm &amp; Easy Blueprints</strong> for tender PSJLM-CORP-2026/27-07. This is <strong>not</strong> the official Port St Johns Municipality website. The official site is <a href="https://psjmunicipality.gov.za/">psjmunicipality.gov.za</a>.</div>
+
+<div class="util">
+  <div class="wrap">
+    <div class="util-left">
+      <a href="tel:0475641207">047 564 1207/8</a>
+      <a href="mailto:info@psjmunicipality.gov.za">info@psjmunicipality.gov.za</a>
+      <span class="weather" data-weather hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span data-wx-text></span></span>
+    </div>
+    <div class="util-right">
+      <div class="seg" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="xh" aria-pressed="false">isiXhosa</button></div>
+      <button type="button" class="chip-btn" data-lite aria-pressed="false"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 20h.01M8 20v-4M13 20v-8M18 20V8"/></svg>Lite mode</button>
+      <a href="#">Staff login</a>
+    </div>
+  </div>
 </div>
+
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="brand" href="index.html" aria-label="Port St Johns Municipality, home">
+      <img src="assets/psj-emblem.png" alt="" width="52" height="46">
+      <span class="brand-name">Port St Johns<small>Municipality</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m1">About PSJ<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m1"><a href="#">About us<span>Who we are and what we do</span></a><a href="#">History of Port St Johns<span>From the Gates of St John to today</span></a><a href="#">FAQs<span>Quick answers to common questions</span></a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m2">Council<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m2" style="--cols:2"><a href="#">The Mayor<span>Cllr Cebisa Sane Mazuza</span></a><a href="#">Council Speaker<span>Office of the Speaker</span></a><a href="#">Council Whip<span>Office of the Whip</span></a><a href="#">Council members<span>Councillors and wards</span></a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m3">Departments<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m3" style="--cols:2"><a href="#">Municipal Manager<span>Office of the Municipal Manager</span></a><a href="#">Budget &amp; Treasury<span>Finance, revenue and SCM</span></a><a href="#">Corporate Services<span>HR, ICT and administration</span></a><a href="#">Community Services and Public Safety<span>Social, health, safety and emergency</span></a><a href="#">Local Economic Development<span>Business, tourism and agriculture</span></a><a href="#">Engineering Services<span>Roads, infrastructure and projects</span></a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m4">Media Room<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m4"><a href="index.html#news">News</a><a href="index.html#board">Notices</a><a href="index.html#news">Events</a><a href="index.html#visit">Gallery</a></div></div>
+      <div class="nav-item"><a class="nav-top" href="#">Documents</a></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m6">Procurement<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m6" style="--cols:2"><a href="tenders.html">Tender adverts</a><a href="tenders.html">Requests for quotation</a><a href="tenders.html">Intent to award</a><a href="tenders.html">Awarded tenders</a><a href="tenders.html">Bids register</a><a href="tenders.html">SCM notices</a><a href="tenders.html">Archived tenders</a></div></div>
+      <div class="nav-item"><button class="nav-top" aria-expanded="false" aria-controls="m7" aria-current="page">Vacancies<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="mega" id="m7"><a href="vacancies.html">Open vacancies<span>Apply online</span></a><a href="vacancies.html#track">Track my application</a><a href="vacancies.html">Closed vacancies</a><a href="vacancies.html">Paper application form</a></div></div>
+    </nav>
+    <div class="hdr-actions">
+      <a class="btn btn-sun" href="#">Report a fault</a>
+      <button type="button" class="icon-btn menu-btn" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
 </header>
 
-<section style="background: #0F3B2E; color: #FFFFFF">
-<div style="max-width: 1240px; margin: 0 auto; padding: 36px 24px 40px">
-<nav aria-label="Breadcrumb" style="font-size: 14px; color: #B9CCC1; margin-bottom: 14px"><a href="index.html" style="color: #FFFFFF">Home</a> / Vacancies</nav>
-<div style="display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: end; justify-content: space-between">
-<div style="flex: 1 1 520px">
-<h1 style="margin: 0 0 10px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 44px; line-height: 1.1">Work for Port St Johns</h1>
-<p style="margin: 0; font-size: 17px; color: #D6E2DA; max-width: 620px">Build one profile, upload your CV and certified documents once, then apply for any post and follow its progress. Paper applications are still accepted at ERF 257 Main Street.</p>
+<div class="mnav" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="mnav-top"><span class="brand" style="color:#fff"><img src="assets/psj-emblem.png" alt="" width="44" height="39"><span class="brand-name">Port St Johns<small style="color:#E7D9A8">Municipality</small></span></span><button type="button" class="icon-btn mnav-close" aria-label="Close menu" style="background:transparent;color:#fff;border-color:#3E6B5A"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <details><summary>About PSJ<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="#">About us</a><a href="#">History of Port St Johns</a><a href="#">FAQs</a></div></details>
+  <details><summary>Council<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="#">The Mayor</a><a href="#">Council Speaker</a><a href="#">Council Whip</a><a href="#">Council members</a></div></details>
+  <details><summary>Departments<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="#">Municipal Manager</a><a href="#">Budget &amp; Treasury</a><a href="#">Corporate Services</a><a href="#">Community Services and Public Safety</a><a href="#">Local Economic Development</a><a href="#">Engineering Services</a></div></details>
+  <details><summary>Media Room<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="index.html#news">News</a><a href="index.html#board">Notices</a><a href="index.html#news">Events</a><a href="index.html#visit">Gallery</a></div></details>
+  <details><summary>Procurement<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="tenders.html">Tender adverts</a><a href="tenders.html">Requests for quotation</a><a href="tenders.html">Awarded tenders</a><a href="tenders.html">Bids register</a><a href="tenders.html">SCM notices</a></div></details>
+  <details><summary>Vacancies<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary><div><a href="vacancies.html">Open vacancies</a><a href="vacancies.html#track">Track my application</a></div></details>
+  <a class="btn btn-sun" href="#">Report a fault</a>
 </div>
-<div style="display: flex; gap: 32px">
-<div><div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; line-height: 1; color: #F2A71B">4</div><div style="font-size: 14px; color: #C8D8CF">open posts</div></div>
-<div><div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; line-height: 1">2</div><div style="font-size: 14px; color: #C8D8CF">close this week</div></div>
-</div>
-</div>
-</div>
+
+<main id="main">
+<section class="page-hero">
+  <img src="assets/murals-wide.jpg" alt="">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / Vacancies</nav>
+    <h1>Work for Port St Johns</h1>
+    <p>Build one profile, upload your CV and certified documents once, then apply for any post and follow its progress by SMS. Paper applications are still accepted at ERF 257 Main Street.</p>
+    <div class="hero-stats"><div><b data-count="4">4</b><span>open posts</span></div><div><b data-count="6">6</b><span>departments hiring</span></div></div>
+  </div>
+  <div class="waves" aria-hidden="true">
+    <svg class="w1" viewBox="0 0 2880 110" preserveAspectRatio="none"><path fill="#4E9CC6" d="M0 52 Q180 14 360 52 T720 52 T1080 52 T1440 52 T1800 52 T2160 52 T2520 52 T2880 52 V110 H0Z"/></svg>
+    <svg class="w2" viewBox="0 0 2880 110" preserveAspectRatio="none"><path fill="#155E86" d="M0 70 Q240 36 480 70 T960 70 T1440 70 T1920 70 T2400 70 T2880 70 V110 H0Z"/></svg>
+    <svg class="w3" viewBox="0 0 2880 110" preserveAspectRatio="none"><path fill="#EEF3F0" d="M0 88 Q180 66 360 88 T720 88 T1080 88 T1440 88 T1800 88 T2160 88 T2520 88 T2880 88 V110 H0Z"/></svg>
+  </div>
 </section>
 
-<div style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 72px; display: flex; flex-wrap: wrap; gap: 32px">
+<section class="section" style="padding-top:48px">
+  <div class="wrap listing">
+    <form class="filters" data-job-filters aria-label="Filter vacancies">
+      <div class="field"><label for="f-q">Keyword</label><input id="f-q" type="search" placeholder="e.g. officer, intern"></div>
+      <div class="field"><label for="f-dept">Department</label>
+        <select id="f-dept"><option value="">All departments</option><option value="mm">Office of the Municipal Manager</option><option value="btd">Budget &amp; Treasury</option><option value="corp">Corporate Services</option><option value="comm">Community Services and Public Safety</option><option value="led">Local Economic Development</option><option value="eng">Engineering Services</option></select></div>
+      <fieldset class="field"><legend>Who can apply</legend>
+        <label class="check"><input type="checkbox" name="who" value="ext" checked>Open to the public</label>
+        <label class="check"><input type="checkbox" name="who" value="int" checked>Municipal staff only</label></fieldset>
+      <fieldset class="field"><legend>Type of post</legend>
+        <label class="check"><input type="checkbox" name="kind" value="perm" checked>Permanent</label>
+        <label class="check"><input type="checkbox" name="kind" value="fixed" checked>Fixed term</label>
+        <label class="check"><input type="checkbox" name="kind" value="intern" checked>Internship or learnership</label></fieldset>
+      <button type="button" class="btn btn-line" data-reset style="justify-content:center">Clear filters</button>
+      <div style="border-top:1px solid var(--line);padding-top:18px">
+        <b style="display:block;margin-bottom:6px">Job alerts</b>
+        <p style="font-size:14.5px;color:var(--muted);margin-bottom:10px">New posts by SMS or email. Stop any time.</p>
+        <div class="subscribe" style="margin:0"><label class="sr" for="alert">Cellphone or email</label><input id="alert" type="text" placeholder="Cellphone or email"></div>
+        <button type="button" class="btn btn-forest" style="margin-top:10px;width:100%;justify-content:center" onclick="psjToast('Job alerts switched on.')">Get job alerts</button>
+      </div>
+    </form>
 
-<aside aria-label="Filters" style="flex: 1 1 260px; max-width: 300px; display: flex; flex-direction: column; gap: 20px">
-<div>
-<label for="v-q" style="display: block; font-weight: 700; font-size: 14.5px; margin-bottom: 6px">Keyword</label>
-<input id="v-q" type="search" placeholder="e.g. clerk, engineer" style="width: 100%; font: inherit; padding: 12px; border: 1px solid #C9C1B0; border-radius: 6px; background: #FFFFFF">
-</div>
-<div>
-<label for="v-dept" style="display: block; font-weight: 700; font-size: 14.5px; margin-bottom: 6px">Department</label>
-<select id="v-dept" style="width: 100%; font: inherit; padding: 12px; border: 1px solid #C9C1B0; border-radius: 6px; background: #FFFFFF">
-<option>All departments</option><option>Office of the Municipal Manager</option><option>Budget &amp; Treasury</option><option>Corporate Services</option><option>Community Services and Public Safety</option><option>Local Economic Development</option><option>Engineering Services</option>
-</select>
-</div>
-<fieldset style="border: 0; margin: 0; padding: 0">
-<legend style="font-weight: 700; font-size: 14.5px; margin-bottom: 8px">Who can apply</legend>
-<label style="display: flex; gap: 10px; align-items: center; padding: 6px 0"><input type="checkbox" checked style="width: 20px; height: 20px; accent-color: #0F3B2E">External, open to the public</label>
-<label style="display: flex; gap: 10px; align-items: center; padding: 6px 0"><input type="checkbox" checked style="width: 20px; height: 20px; accent-color: #0F3B2E">Internal, municipal staff only</label>
-</fieldset>
-<fieldset style="border: 0; margin: 0; padding: 0">
-<legend style="font-weight: 700; font-size: 14.5px; margin-bottom: 8px">Type</legend>
-<label style="display: flex; gap: 10px; align-items: center; padding: 6px 0"><input type="checkbox" checked style="width: 20px; height: 20px; accent-color: #0F3B2E">Permanent</label>
-<label style="display: flex; gap: 10px; align-items: center; padding: 6px 0"><input type="checkbox" checked style="width: 20px; height: 20px; accent-color: #0F3B2E">Fixed term</label>
-<label style="display: flex; gap: 10px; align-items: center; padding: 6px 0"><input type="checkbox" style="width: 20px; height: 20px; accent-color: #0F3B2E">Internship and learnership</label>
-</fieldset>
-<div style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 18px">
-<p style="margin: 0 0 6px; font-weight: 700">Get job alerts</p>
-<p style="margin: 0 0 12px; font-size: 14.5px; color: #55605B">We send new posts by SMS or email. You can stop at any time.</p>
-<label for="v-alert" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Cellphone or email</label>
-<input id="v-alert" type="text" placeholder="Cellphone or email" style="width: 100%; font: inherit; padding: 11px; border: 1px solid #C9C1B0; border-radius: 6px; margin-bottom: 8px">
-<button type="button" style="width: 100%; font: inherit; font-weight: 700; padding: 12px; border: 0; border-radius: 6px; background: #0F3B2E; color: #FFFFFF; cursor: pointer">Subscribe</button>
-</div>
-</aside>
+    <div>
+      <div class="result-bar"><p style="font-weight:700" data-count-out aria-live="polite">Showing 4 open posts</p><span style="color:var(--muted);font-size:15px">Sorted by closing date</span></div>
+      <ul class="jobs-list">
+        <li class="job" data-dept="corp" data-who="ext" data-kind="perm">
+          <div><div class="tags"><span class="tag ext">Open to the public</span><span class="tag">Permanent</span></div><h3>Senior IT Officer</h3><p class="meta">Corporate Services, Ref [REF], task grade [X]</p></div>
+          <div class="job-side"><div class="closes"><small>Closes</small><b class="soon">[Date]</b></div><a class="btn btn-forest" href="#" data-apply="Senior IT Officer">Apply</a></div>
+        </li>
+        <li class="job" data-dept="btd" data-who="int" data-kind="perm">
+          <div><div class="tags"><span class="tag int">Municipal staff only</span><span class="tag">Permanent</span></div><h3>Supply Chain Practitioner</h3><p class="meta">Budget &amp; Treasury, Ref [REF], task grade [X]</p></div>
+          <div class="job-side"><div class="closes"><small>Closes</small><b class="soon">[Date]</b></div><a class="btn btn-forest" href="#" data-apply="Supply Chain Practitioner">Apply</a></div>
+        </li>
+        <li class="job" data-dept="comm" data-who="ext" data-kind="fixed">
+          <div><div class="tags"><span class="tag ext">Open to the public</span><span class="tag">Fixed term</span></div><h3>Traffic Officer</h3><p class="meta">Community Services and Public Safety, Ref [REF], task grade [X]</p></div>
+          <div class="job-side"><div class="closes"><small>Closes</small><b>[Date]</b></div><a class="btn btn-forest" href="#" data-apply="Traffic Officer">Apply</a></div>
+        </li>
+        <li class="job" data-dept="eng" data-who="ext" data-kind="intern">
+          <div><div class="tags"><span class="tag ext">Open to the public</span><span class="tag">Internship</span></div><h3>Graduate Intern: Civil Engineering</h3><p class="meta">Engineering Services, Ref [REF], 12 months</p></div>
+          <div class="job-side"><div class="closes"><small>Closes</small><b>[Date]</b></div><a class="btn btn-forest" href="#" data-apply="Graduate Intern: Civil Engineering">Apply</a></div>
+        </li>
+      </ul>
+      <div class="empty" hidden><b style="display:block;color:var(--ink);margin-bottom:6px">No posts match those filters.</b>Clear a filter or switch on job alerts to hear about new posts first.<br><button type="button" class="btn btn-line" data-reset style="margin-top:14px">Clear filters</button></div>
+      <p style="margin-top:18px;font-size:15px;color:var(--muted)">Sample listings for this concept. <a class="link" href="#">Closed vacancies and outcomes</a> or the <a class="link" href="#">Paper application form (PDF)</a></p>
 
-<main style="flex: 999 1 560px; min-width: 0">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; margin-bottom: 12px">
-<p style="margin: 0; font-weight: 600">Showing 4 open posts</p>
-<label style="display: flex; gap: 8px; align-items: center; font-size: 14.5px">Sort by
-<select style="font: inherit; font-size: 14.5px; padding: 8px 10px; border: 1px solid #C9C1B0; border-radius: 6px; background: #FFFFFF"><option>Closing soonest</option><option>Newest</option></select>
-</label>
-</div>
-<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+      <section style="margin-top:64px" aria-labelledby="how-h">
+        <h2 id="how-h" style="font-size:clamp(30px,3.4vw,42px);margin-bottom:28px">How applying online works</h2>
+        <ol class="steps">
+          <li><span class="num">1</span><b>Create a profile</b><p>Your cellphone number and a one-time PIN. No password to remember.</p></li>
+          <li><span class="num">2</span><b>Upload documents once</b><p>CV, ID and certified qualifications, reused for every post.</p></li>
+          <li><span class="num">3</span><b>Apply</b><p>Complete the Z83 online and submit in minutes.</p></li>
+          <li><span class="num">4</span><b>Follow your status</b><p>An SMS at every stage, from shortlist to outcome.</p></li>
+        </ol>
+      </section>
 
-<li style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center">
-<div style="flex: 1 1 360px; min-width: 0">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px">
-<span style="font-size: 12.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #E4EBD3; color: #3E5A1A">External</span>
-<span style="font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: #F5F1E8; color: #3D4743">Permanent</span>
-</div>
-<a href="#" style="display: block; font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 600; text-decoration: none; color: #0F3B2E; line-height: 1.25">Senior IT Officer</a>
-<p style="margin: 4px 0 0; font-size: 14.5px; color: #55605B">Corporate Services · Ref [REF] · Task grade [X]</p>
-</div>
-<div style="flex: none; text-align: right; min-width: 120px">
-<div style="font-size: 13px; color: #55605B">Closes</div>
-<div style="font-weight: 700; font-size: 17px; color: #9A3412">[Date]</div>
-</div>
-<div style="flex: none; display: flex; gap: 8px">
-<a href="#" style="text-decoration: none; font-weight: 600; padding: 11px 14px; border: 1px solid #C9C1B0; border-radius: 6px">Details</a>
-<a href="#" style="text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 6px; background: #0F3B2E; color: #FFFFFF">Apply</a>
-</div>
-</li>
-
-<li style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center">
-<div style="flex: 1 1 360px; min-width: 0">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px">
-<span style="font-size: 12.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #FCEBC6; color: #6B4A00">Internal</span>
-<span style="font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: #F5F1E8; color: #3D4743">Permanent</span>
-</div>
-<a href="#" style="display: block; font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 600; text-decoration: none; color: #0F3B2E; line-height: 1.25">Supply Chain Practitioner</a>
-<p style="margin: 4px 0 0; font-size: 14.5px; color: #55605B">Budget &amp; Treasury · Ref [REF] · Task grade [X]</p>
-</div>
-<div style="flex: none; text-align: right; min-width: 120px">
-<div style="font-size: 13px; color: #55605B">Closes</div>
-<div style="font-weight: 700; font-size: 17px; color: #9A3412">[Date]</div>
-</div>
-<div style="flex: none; display: flex; gap: 8px">
-<a href="#" style="text-decoration: none; font-weight: 600; padding: 11px 14px; border: 1px solid #C9C1B0; border-radius: 6px">Details</a>
-<a href="#" style="text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 6px; background: #0F3B2E; color: #FFFFFF">Apply</a>
-</div>
-</li>
-
-<li style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center">
-<div style="flex: 1 1 360px; min-width: 0">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px">
-<span style="font-size: 12.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #E4EBD3; color: #3E5A1A">External</span>
-<span style="font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: #F5F1E8; color: #3D4743">Fixed term</span>
-</div>
-<a href="#" style="display: block; font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 600; text-decoration: none; color: #0F3B2E; line-height: 1.25">Traffic Officer</a>
-<p style="margin: 4px 0 0; font-size: 14.5px; color: #55605B">Community Services and Public Safety · Ref [REF] · Task grade [X]</p>
-</div>
-<div style="flex: none; text-align: right; min-width: 120px">
-<div style="font-size: 13px; color: #55605B">Closes</div>
-<div style="font-weight: 700; font-size: 17px; color: #1C2421">[Date]</div>
-</div>
-<div style="flex: none; display: flex; gap: 8px">
-<a href="#" style="text-decoration: none; font-weight: 600; padding: 11px 14px; border: 1px solid #C9C1B0; border-radius: 6px">Details</a>
-<a href="#" style="text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 6px; background: #0F3B2E; color: #FFFFFF">Apply</a>
-</div>
-</li>
-
-<li style="background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center">
-<div style="flex: 1 1 360px; min-width: 0">
-<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px">
-<span style="font-size: 12.5px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #E4EBD3; color: #3E5A1A">External</span>
-<span style="font-size: 12.5px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: #F5F1E8; color: #3D4743">Internship</span>
-</div>
-<a href="#" style="display: block; font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 600; text-decoration: none; color: #0F3B2E; line-height: 1.25">Graduate Intern: Civil Engineering</a>
-<p style="margin: 4px 0 0; font-size: 14.5px; color: #55605B">Engineering Services · Ref [REF] · 12 months</p>
-</div>
-<div style="flex: none; text-align: right; min-width: 120px">
-<div style="font-size: 13px; color: #55605B">Closes</div>
-<div style="font-weight: 700; font-size: 17px; color: #1C2421">[Date]</div>
-</div>
-<div style="flex: none; display: flex; gap: 8px">
-<a href="#" style="text-decoration: none; font-weight: 600; padding: 11px 14px; border: 1px solid #C9C1B0; border-radius: 6px">Details</a>
-<a href="#" style="text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 6px; background: #0F3B2E; color: #FFFFFF">Apply</a>
-</div>
-</li>
-
-</ul>
-<p style="margin: 16px 0 0; font-size: 14.5px"><a href="#" style="font-weight: 700">Closed vacancies and outcomes</a> · <a href="#" style="font-weight: 700">Download the paper application form</a></p>
-
-<section aria-labelledby="how-h" style="margin-top: 48px">
-<h2 id="how-h" style="margin: 0 0 18px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 30px; color: #0F3B2E">How applying online works</h2>
-<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0">
-
-<li style="padding: 0 18px 0 0">
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px">
-<span style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: #0F3B2E; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">1</span>
-<span style="flex: 1; height: 2px; background: #C9C1B0"></span>
-</div>
-<p style="margin: 0 0 4px; font-weight: 700; color: #0F3B2E">Create a profile</p>
-<p style="margin: 0; font-size: 14.5px; color: #55605B">Cellphone number and a one-time PIN. No password to forget.</p>
-</li>
-
-<li style="padding: 0 18px 0 0">
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px">
-<span style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: #0F3B2E; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span>
-<span style="flex: 1; height: 2px; background: #C9C1B0"></span>
-</div>
-<p style="margin: 0 0 4px; font-weight: 700; color: #0F3B2E">Upload documents once</p>
-<p style="margin: 0; font-size: 14.5px; color: #55605B">CV, ID, certified qualifications. Reused for every post.</p>
-</li>
-
-<li style="padding: 0 18px 0 0">
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px">
-<span style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: #0F3B2E; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span>
-<span style="flex: 1; height: 2px; background: #C9C1B0"></span>
-</div>
-<p style="margin: 0 0 4px; font-weight: 700; color: #0F3B2E">Apply in two taps</p>
-<p style="margin: 0; font-size: 14.5px; color: #55605B">Complete the Z83 online and submit.</p>
-</li>
-
-<li style="padding: 0 18px 0 0">
-<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px">
-<span style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: #F2A71B; color: #0B2C22; font-weight: 700; display: flex; align-items: center; justify-content: center">4</span>
-<span style="flex: 1; height: 2px; background: #C9C1B0"></span>
-</div>
-<p style="margin: 0 0 4px; font-weight: 700; color: #0F3B2E">Follow your status</p>
-<p style="margin: 0; font-size: 14.5px; color: #55605B">SMS updates at every stage of the process.</p>
-</li>
-
-</ol>
+      <section id="track" class="tracker" style="margin-top:56px" aria-labelledby="track-h">
+        <div>
+          <h2 id="track-h" style="font-size:32px">Track my application</h2>
+          <p style="color:var(--muted);margin:8px 0 18px">Enter the reference we sent you by SMS. No login needed.</p>
+          <form data-track>
+            <div class="field"><label for="ref">Application reference</label></div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap"><input id="ref" type="text" placeholder="PSJ-APP-104233" style="flex:1 1 200px;min-width:0;font:inherit;padding:12px 16px;border:1.5px solid var(--line);border-radius:999px"><button class="btn btn-sun" type="submit">Check status</button></div>
+            <p data-track-out aria-live="polite" style="margin-top:12px;font-size:15px;color:var(--muted)"></p>
+          </form>
+        </div>
+        <ol class="timeline" aria-label="Application status">
+          <li><div><b>Received</b><div style="font-size:14.5px;color:var(--muted)">Documents complete</div></div></li>
+          <li><div><b>Shortlisting</b><div style="font-size:14.5px;color:var(--muted)">Panel reviewing applications</div></div></li>
+          <li><div><b>Interview</b><div style="font-size:14.5px;color:var(--muted)">Date and venue by SMS</div></div></li>
+          <li><div><b>Outcome</b><div style="font-size:14.5px;color:var(--muted)">Letter sent to your profile</div></div></li>
+        </ol>
+      </section>
+      <p style="margin-top:20px;font-size:14px;color:var(--muted)">Your personal information is processed under POPIA and used only for recruitment. Read the <a href="#">privacy notice</a>.</p>
+    </div>
+  </div>
 </section>
-
-<section aria-labelledby="track-h" style="margin-top: 44px; background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px; padding: 28px; display: flex; flex-wrap: wrap; gap: 28px 48px">
-<div style="flex: 1 1 280px">
-<h2 id="track-h" style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 26px; color: #0F3B2E">Track my application</h2>
-<p style="margin: 0 0 16px; font-size: 15px; color: #55605B">Enter the reference we sent you by SMS. No login needed.</p>
-<label for="v-ref" style="display: block; font-weight: 700; font-size: 14.5px; margin-bottom: 6px">Application reference</label>
-<div style="display: flex; gap: 8px">
-<input id="v-ref" type="text" placeholder="PSJ-APP-000000" style="flex: 1; min-width: 0; font: inherit; padding: 12px; border: 1px solid #C9C1B0; border-radius: 6px">
-<button type="button" style="font: inherit; font-weight: 700; padding: 12px 18px; border: 0; border-radius: 6px; background: #F2A71B; color: #0B2C22; cursor: pointer">Check</button>
-</div>
-</div>
-<div style="flex: 1 1 340px">
-<p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #55605B">Example status</p>
-<ol style="list-style: none; margin: 0; padding: 0">
-<li style="display: flex; gap: 12px; padding-bottom: 14px"><span style="width: 14px; height: 14px; margin-top: 5px; border-radius: 50%; background: #0F3B2E; flex: none"></span><div><b>Received</b><div style="font-size: 14px; color: #55605B">Documents complete</div></div></li>
-<li style="display: flex; gap: 12px; padding-bottom: 14px"><span style="width: 14px; height: 14px; margin-top: 5px; border-radius: 50%; background: #0F3B2E; flex: none"></span><div><b>Shortlisting</b><div style="font-size: 14px; color: #55605B">Panel reviewing applications</div></div></li>
-<li style="display: flex; gap: 12px; padding-bottom: 14px"><span style="width: 14px; height: 14px; margin-top: 5px; border-radius: 50%; border: 2px solid #8A938F; flex: none"></span><div style="color: #55605B"><b>Interview</b></div></li>
-<li style="display: flex; gap: 12px"><span style="width: 14px; height: 14px; margin-top: 5px; border-radius: 50%; border: 2px solid #8A938F; flex: none"></span><div style="color: #55605B"><b>Outcome</b></div></li>
-</ol>
-</div>
-</section>
-<p style="margin: 20px 0 0; font-size: 13.5px; color: #55605B">Your personal information is processed under POPIA and used only for recruitment. Read the <a href="#">privacy notice</a>.</p>
 </main>
+
+<div class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-h">
+  <div class="drawer-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center"><span data-step-label style="font-weight:700;color:var(--olive)">Step 1 of 4</span><button type="button" class="icon-btn drawer-close" aria-label="Close application"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <h2 id="drawer-h" data-drawer-title>Apply</h2>
+    <div class="progress"><i></i></div>
+    <div data-step="1">
+      <div class="field" style="margin-bottom:14px"><label for="a-cell">Cellphone number</label><input id="a-cell" type="text" placeholder="e.g. 071 234 5678"></div>
+      <p style="color:var(--muted);font-size:15px;margin-bottom:18px">We send a one-time PIN to confirm it is you.</p>
+      <button type="button" class="btn btn-forest" data-next="2">Send PIN</button>
+    </div>
+    <div data-step="2" hidden>
+      <p style="margin-bottom:6px;font-weight:700">Upload your documents</p>
+      <div class="upload">Drop your CV, ID and certified qualifications here, or tap to choose files. PDF or photo, up to 5 MB each.</div>
+      <button type="button" class="btn btn-forest" data-next="3">Continue</button>
+    </div>
+    <div data-step="3" hidden>
+      <p style="margin-bottom:12px;font-weight:700">Z83 application form</p>
+      <div class="field" style="margin-bottom:12px"><label for="a-name">Full name</label><input id="a-name" type="text"></div>
+      <div class="field" style="margin-bottom:18px"><label for="a-q">Highest qualification</label><input id="a-q" type="text"></div>
+      <label class="check" style="margin-bottom:18px"><input type="checkbox">I confirm the information is correct and consent to processing under POPIA.</label>
+      <button type="button" class="btn btn-forest" data-next="4">Submit application</button>
+    </div>
+    <div data-step="4" hidden>
+      <p style="font-family:var(--display);font-size:28px;color:var(--forest);margin-bottom:8px">Application submitted</p>
+      <p style="color:var(--muted);margin-bottom:18px">Your reference is <b style="color:var(--ink)">PSJ-APP-104233</b>. We sent it to your phone. Use it to track your application.</p>
+      <a class="btn btn-sun" href="#track" onclick="psjCloseDrawer()">Track my application</a>
+    </div>
+  </div>
 </div>
 
-<footer style="background: #0B2C22; color: #9FB5A9; font-size: 13.5px">
-<div style="max-width: 1240px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between">
-<span>© 2026 Port St Johns Local Municipality · ERF 257 Main Street, Port St Johns, 5120</span>
-<span><a href="#" style="color: #FFFFFF">PAIA</a> · <a href="#" style="color: #FFFFFF">POPIA</a> · <a href="#" style="color: #FFFFFF">Accessibility</a></span>
-</div>
+
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <div><img class="crest" src="assets/psj-emblem.png" alt="Port St Johns Municipality crest"><p class="name">Port St Johns Local Municipality</p><p style="color:var(--on-dark-muted);margin-top:4px">Our heritage, our people</p></div>
+    <div><h2>Contact</h2><p>ERF 257 Main Street<br>Port St Johns, 5120</p><p style="margin-top:8px"><a href="tel:0475641207">047 564 1207/8</a><br><a href="mailto:info@psjmunicipality.gov.za">info@psjmunicipality.gov.za</a></p><p style="margin-top:8px;color:var(--on-dark-muted)">[Office hours]</p></div>
+    <div><h2>Emergencies</h2><ul><li>Police <a href="tel:10111"><b>10111</b></a></li><li>Ambulance and fire <a href="tel:10177"><b>10177</b></a></li><li>After-hours faults <b style="color:#fff">[Number]</b></li><li>Disaster management <b style="color:#fff">[Number]</b></li></ul></div>
+    <div><h2>Transparency</h2><ul><li><a href="#">IDP, budget and annual reports</a></li><li><a href="#">By-laws and policies</a></li><li><a href="#">PAIA manual</a></li><li><a href="#">POPIA privacy notice</a></li><li><a href="#">Accessibility</a></li></ul></div>
+  </div>
+  <div class="footer-base"><div class="wrap"><span>© 2026 Port St Johns Local Municipality</span><span>Website concept by Warm &amp; Easy Blueprints</span></div></div>
 </footer>
-</div>
+
+<button type="button" class="to-top" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<script src="assets/site.js"></script>
 </body>
 </html>
